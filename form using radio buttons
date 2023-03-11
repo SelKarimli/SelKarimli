@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+       <nav></nav>
+       <main>
+        <h1>Sign up</h1>
+        <form method="post">
+            <fieldset id="size">
+                <label><input type="radio" value="2" name="size">2-person table</label>
+            <label><input type="radio" value="4" name="size" checked>4-person table</label>
+        <label><input type="radio" value="6" name="size">6-person table</label>
+            </fieldset>
+            <fieldset id="location">
+            <label><input type="radio" value="indoors" name="location" checked>Indoors</label>
+        <label><input type="radio" value="outdoors" name="location">Outdoors</label>
+            </fieldset>
+            <button type="submit">Book Table</button>
+        </form>
+       </main>
+       <footer>
+        <p>&copy; Little Lemon</p>
+       </footer> 
+    </body>
+</html>
